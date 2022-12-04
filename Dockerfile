@@ -2,6 +2,6 @@ FROM osrf/ros:noetic-desktop-full
 
 WORKDIR /root
 
-ADD run.sh ~/
+ADD run.sh /root
 
-RUN ~/run.sh
+RUN /root/run.sh

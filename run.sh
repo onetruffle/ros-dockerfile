@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "
 .  /opt/ros/noetic/setup.bash
@@ -8,8 +8,12 @@ echo "
 .  /opt/ros/noetic/setup.bash
 
 ## set the catkin workspace only once
-pushd
+cd ## refer to gist
 mkdir -p catkin_ws/src
 pushd catkin_ws
 catkin_make
 popd
+
+## update ###################################
+apt update
+apt install iputils-ping
