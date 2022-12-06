@@ -16,4 +16,4 @@ popd
 
 ## update ###################################
 apt update
-apt install iputils-ping
+apt install iputils-ping neovim python-is-python3 git
