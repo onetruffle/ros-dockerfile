@@ -1,3 +1,3 @@
 # ros-dockerfile
 
-Run `docker build --rm -t my-ros .`
+Run `podman build -t my-ros .`
