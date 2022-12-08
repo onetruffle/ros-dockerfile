@@ -14,9 +14,11 @@ packages=(
     neovim
     git
     python-is-python3
-    python3-torch
-    python3-torchvision
-    python3-torchaudio
+
+    # python3-torch
+    # python3-torchvision
+    # python3-torchaudio
+    
     # python3-matplotlib (installed already)
 )
 
