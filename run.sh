@@ -22,7 +22,7 @@ packages=(
 
 apt update
 ## bash array, not zsh array
-print ${packages[@]}
+echo ${packages[@]}
 apt install ${packages[@]}
 
 ## set the catkin workspace only once #####################
@@ -32,9 +32,9 @@ pushd catkin_ws
 catkin_make
 popd
 
-## update ###################################
-apt update
-apt install iputils-ping neovim python-is-python3 git
+# ## update ###################################
+# apt update
+# apt install iputils-ping neovim python-is-python3 git
 
 ## torch2rt
 # git clone https://github.com/NVIDIA-AI-IOT/torch2trt
